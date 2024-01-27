@@ -2,7 +2,7 @@
 
 [![tests](https://github.com/akash-network/provider/actions/workflows/tests.yaml/badge.svg)](https://github.com/akash-network/provider/actions/workflows/tests.yaml)
 
-This folder contains the Akash Provider Daemon. This piece of software listens to events emitted from the Akash blockchain (code in `../app/app.go`) and takes actions on a connected Kubernetes cluster to provision compute capacity based on the bids that the configured provider key wins. The following are the pieces of the daemon:
+This folder contains the Akash Provider Daemon. This piece of software listens to events emitted from the Akash blockchain (code in `./app/app.go`) and takes actions on a connected Kubernetes cluster to provision compute capacity based on the bids that the configured provider key wins. The following are the pieces of the daemon:
 
 ## Development environment
 
